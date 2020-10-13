@@ -1,0 +1,168 @@
+
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.chiller-font{
+    font: chiller;
+}
+
+.fc-white{
+    color:white;
+}
+
+.fc-black{
+    color:black;
+}
+
+.fc-green{
+    color:green;
+}
+.fc-yellow{
+    color:yellow;
+}
+.fc-red{
+    color:red;
+}
+.fc-blue{
+    color:blue;
+}
+.fc-orange{
+    color:orange;
+}
+.fc-pink{
+    color:pink;
+}
+.fs30{
+    font-size: 30px;
+}
+
+.fs60{
+    font-size: 60px;
+}
+.fs90{
+    font-size: 90px;
+}
+.fs120{
+    font-size: 120px;
+}
+
+.comicsans {
+    font-family: "Comic Sans MS";
+}
+
+.chiller {
+    font-Family: "Chiller";
+}
+
+.animate1{
+    background-clip: text;
+    animation-name: shine1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.animate2{
+    background-clip: text;
+    animation-name: shine2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.animate3{
+    background-clip: text;
+    animation-name: shine3;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes shine1 {
+    0% {
+        transform: translatex(0px) translatey(0px)
+    }
+    50% {
+        transform: translatex(300px) translatey(300px);
+    }
+    100% {
+        transform: translatex(0px) translatey(0px)
+    }
+}
+@keyframes shine2 {
+    0% {
+        transform: translatex(50px) translatey(500px)
+    }
+    25% {
+        transform: translatex(370px) translatey(100px);
+    }
+    50% {
+        transform: translatex(700px) translatey(600px)
+    }
+    75% {
+        transform: translatex(400px) translatey(200px)
+    }
+    100% {
+        transform: translatex(50px) translatey(500px)
+    }
+}
+@keyframes shine3 {
+    0% {
+        transform: translatex(0px) translatey(0px)
+    }
+    50% {
+        transform: translatex(00px) translatey(500px);
+    }
+    100% {
+        transform: translatex(0px) translatey(0px)
+    }
+}
+
+
+div.a {
+    width: 250px;
+    height:auto;
+    position:fixed;
+    left:100px;
+        
+}
+
+div.b {
+    width: 400px;
+    height:auto;
+    position:fixed;
+    top:380px;
+    right: 350px;
+        
+}
+div.c {
+    width: 400px;
+    height:auto;
+    position:fixed;
+    top:680px;
+    right: 210px;
+        
+}
+
+div.d {
+    width: 400px;
+    height:auto;
+    position:fixed;
+    top:280px;
+    right: 210px;
+        
+}
+
+
+
+
+.no-scroll{
+    overflow: hidden;
+}
