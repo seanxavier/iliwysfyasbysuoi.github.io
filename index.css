@@ -3597,24 +3597,3 @@
     color:black;
 }
 
-.contactme{
-    text-align: center;
-    width: auto;
-    background-color: black;
-    color: white;
-    padding: 50px 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 75px;
-}
-
-.contactme a {
-    color: white;
-    margin: 30px;
-    font-size: x-large;
-}
-.contactme h3{
-
-    color: white;
-}

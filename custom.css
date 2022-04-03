@@ -1,0 +1,31 @@
+.bg-black{
+    background: black;
+}
+
+.bg-dark-grey{
+    background: rgb(44, 42, 42);
+}
+
+
+.container-fluid {
+
+    padding: 50px 0px 0px 0px;
+    z-index: 0; }
+
+.contactme{
+    text-align: center;
+    width: auto;
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+
+.contactme a {
+    color: white;
+    margin: 30px;
+    font-size: x-large;
+}
+.contactme h3{
+
+    color: white;
+}

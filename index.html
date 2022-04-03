@@ -3,20 +3,25 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Sean Xavier</title>
+    <title>Sean Xavier | Code</title>
     <meta name="description" content="I code stuff.">
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
 
     <!-- Favicon, RSS & Ext. CSS -->
     <link rel="shortcut icon"
         href="https://64.media.tumblr.com/d2a9831c9a178df92e3055b1629ddfd0/8c4de3a9dee9daac-77/s128x128u_c1/ca287f53f470fd4b7d1d111b23c03fa59b728169.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="custom.css">
     <script src="https://use.fontawesome.com/08915457ea.js"></script>
 
 
 </head>
 
-<body class="index-page index one " data-new-gr-c-s-check-loaded="14.1040.0" data-gr-ext-installed="">
+<body>
     <div id="sidebar" class="normal">
         <div class="inner animated slow">
             <div class="wrap">
@@ -42,16 +47,13 @@
         </div>
     </div>
 
-    <div id="header">
-        <div class="wrap">
+    <div id="header" class=" d-none d-md-block">
+        <div class="wrap ">
             <div class="inner">
-                <!-- <div class="sidebar-toggle" style="opacity: 1;">
-                    <span></span>
-                </div> -->
                 <div class="logo uppercase" style="opacity: 1;">
                     <a href="https://code.seanxavier.one/" title="Home">Sean Xavier</a>
                 </div>
-                <nav class="navigation normal">
+                <nav class="navigation normal ">
                     <ul>
                         <li><a href="https://www.seanxavier.one/">About</a></li>
                         <li><a href="https://art.seanxavier.one/">Art</a></li>
@@ -67,132 +69,261 @@
         </div>
     </div>
 
-
-
-    <div class="wrapper">
-
-        <div class="aboutme row">
-            <div class="col">
-                <img src="https://64.media.tumblr.com/d5a76c05c56ee8bf8286c3954a30e2b1/408fcee7634f163d-a2/s640x960/3dd28ab217e95d77e6db99e125f53f39dee2aa72.jpg"
-                    alt="">
-            </div>
-            <div class="col">
-                <h1>About Me</h1>
-                <h3>Hi, I’m Sean Xavier, 21, male, residing in Manila. I’m also a sleep-deprived ccs college student who
-                    likes to create stuff.</h3>
-                <p>Go check my art, photography, and programming projects portfolio through the links above! :)</p>
-            </div>
+    <!-- this one is for mobile -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black d-block d-md-none">
+        <!-- <div class="logo uppercase" style="opacity: 1;"> -->
+            <a href="https://code.seanxavier.one/" class="navbar-brand text-white " title="Home">Sean Xavier</a>
+        <!-- </div> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "> </span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a href="https://www.seanxavier.one/" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="https://art.seanxavier.one/" class="nav-link">Art</a></li>
+            <li class="nav-item"><a href="https://photo.seanxavier.one/" class="nav-link">Photography</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Code</a></li>
+          </ul>
         </div>
+    </nav>
 
-        <div class="skills row">
-            <div class="col">
-                <h1 class=" black" >Skills</h1>
+
+
+    <div class="container-fluid">
+        <div id="aboutme" class="">
+            <div class="row bg-black text-white" id="">
+                <div class="col-xm-12 col-sm-6 col-md-3 align-self-center justify-content-right order-sm-last m-0 p-0">
+                    <img class="img img-fluid"
+                        src="https://64.media.tumblr.com/d5a76c05c56ee8bf8286c3954a30e2b1/408fcee7634f163d-a2/s640x960/3dd28ab217e95d77e6db99e125f53f39dee2aa72.jpg"
+                        alt="" width="100%">
+                </div>
+                <!-- <div class="col-md-2 display-xs-none display-md-block"></div> -->
+                <div class="col-xm-12 col-sm-6 col-md-9 align-self-center p-5 ">
+                    <h1 class="text-white"> About Me</h1>
+                    <p class="">Hi, I’m Sean Xavier, 21, male, residing in Manila. I’m also a sleep-deprived ccs college
+                        student
+                        who likes to create stuff. I've worked in deveral development projects as a full-stack developer
+                        and as a team leader. </p>
+                    <p>Other than programming, I also enjoy <a href="https://art.seanxavier.one/"
+                            class="text-danger">art</a> and <a href="https://photo.seanxavier.one/"
+                            class="text-danger">photography</a>. Make sure to check my creative side's portfolio through
+                        the links above! :)</p>
+                </div>
                 
-                <h3>Web Development</h3>
-                <p>HTML5, CSS3, Javascript, NodeJS</p>
-            </div>
-            <div class="col">
-                <h1 class=" black" style="color:black;">Skills</h1>
-                <h3>Database</h3>
-                <p>MongoDB</p>
-            </div>
-            <div class="col">
-                <h1 class=" black" style="color:black;">Skills</h1>
-                <h3>Frameworks and Tools</h3>
-                <p>HTML5, CSS3, Javascript, NodeJS</p>
             </div>
         </div>
 
-        <div class="projects row">
-            <div class="col">
-                <h1 >Projects</h1>
+
+        <div class="row  text-center bg-light">
+            <div class="col col-12 p-0 ">
+                <h1 class=" text-uppercase">Skills</h1>
             </div>
-            <div class="col">
-                <h3>SeanXavier.One</h3>
-                <p>A personal portfolio website for my art, photography, and (wip) codes. The portfolio was created years ago using Tumblr. This time, I used a 
-                    custom domain name and managed the DNS.</p>
-                <p>
-                    <a href="https://www.seanxavier.one/">seanxavier.one</a>  
-                    <!-- <a href="">Heroku Deployed</a> -->
-                </p>
+        </div>
+        <div id="skills" class="bg-black p-0 col-12">
+            <div class="row ">
+                <div class="card col-6 col-sm-6 col-lg bg-black p-3">
+                    <div class="card-header">
+                        <h3 class="text-white card-title">Web Development</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled text-white">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Javascript</li>
+                            <li>JQuery</li>
+                            <li>NodeJS</li>
+                            <li>SASS</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card col-6 col-sm-6 col-lg bg-black p-3">
+                    <div class="card-header">
+                        <h3 class="text-white card-title">Database</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled text-white">
+                            <li>MongoDB</li>
+                            <li>Familiar with SQL</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card col-6 col-sm-6 col-lg bg-black p-3">
+                    <div class="card-header">
+                        <h3 class="text-white card-title">Project Management</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled text-white">
+                            <li>Waterfall</li>
+                            <li>Agile</li>
+                            <li>Scrum</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card col-6 col-sm-6 col-lg bg-black p-3">
+                    <div class="card-header">
+                        <h3 class="text-white card-title ">Frameworks & Technologies</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled text-white">
+                            <li>React</li>
+                            <li>Bootstrap</li>
+                            <li>Handlebars</li>
+                            <li>Express</li>
+                            <li>Power BI</li>
+                            <li>Knime</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="col">
-                <h3>Trackship</h3>
-                <p>A Bidding and Vessel Tracking system developed for an oil tankering 
-                    and logistics company. The system tracks the status of bids, vessels, 
-                    and the voyage of each vessels. It generates reports, notifies users 
-                    
-                    relevant informations and peer-to-peer messaging within the system.</p>
-                <p>
-                    <a href="https://github.com/iliwysfyasbysuoi/ISANDE2-TrackShip">Github</a>  
-                    <!-- <a href="">Heroku Deployed</a> -->
-                </p>
+        </div>
+
+        <div class="row  text-center bg-light">
+            <div class="col col-12 p-0 ">
+                <h1 class=" text-uppercase">Projects</h1>
             </div>
-            
-            <div class="col">
-                <h3>FreeTextPH</h3>
-                <p>FreeTextPH is a free SMS service using Globe Telecom's API. The 
-                    recipient must be registered to the service before they can receive 
-                    messages sent using the web app.
+        </div>
+        <div id="projects" class="row">
+            <div class="card bg-black col-12 order-lg  col-lg-6  col-xl-4">
+                <div class="card-body ">
+                    <h5 class="card-title text-light">SeanXavier.One</h5>
+                    <h6 class="card-subtitle mb-2 text-muted small">A portfolio website</h6>
+                    <p class="card-text text-light">A personal portfolio website for my art, photography, and (wip)
+                        codes. The
+                        portfolio was created years ago using Tumblr. This time, I used a custom domain name and managed
+                        the DNS.</p>
+                    <a href="https://www.seanxavier.one/" class="card-link text-light">seanxavier.one</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-lg-6  col-xl-4">
+                <div class="card-body">
+                    <h5 class="card-title ">Trackship</h5>
+                    <h6 class="card-subtitle mb-2 text-muted small">A Bidding & Vessal Tracking System</h6>
+                    <p class="card-text">A Bidding and Vessel Tracking system developed for an oil tankering and
+                        logistics company. The system tracks the status of bids, vessels, and the voyage of each
+                        vessels. It generates reports, notifies users relevant informations and peer-to-peer messaging
+                        within the system.</p>
+                    <!-- <a href="https://www.seanxavier.one/" class="card-link">seanxavier.one</a> -->
+                </div>
+            </div>
+
+            <div class="card bg-black col-12 col-lg-6  order-lg-last col-xl-4">
+                <div class="card-body">
+                    <h5 class="card-title text-light">FreeTextPH</h5>
+                    <h6 class="card-subtitle mb-2 text-muted small">A free SMS service</h6>
+                    <p class="card-text text-light">FreeTextPH is a free SMS service using Globe Telecom's API. The
+                        recipient must
+                        be registered to the service before they can receive messages sent using the web app.</p>
+                    <a href="https://freetextph.herokuapp.com/" class="card-link text-light">Heroku Deployed</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-lg-6 order-xl-last col-xl-4">
+                <div class="card-body">
+                    <h5 class="card-title">Malate Decrypt</h5>
+                    <h6 class="card-subtitle mb-2 text-muted small">A simple web-based game</h6>
+                    <p class="card-text">nMalate Decrypt is a simple and non-inspect-elementable web puzzle game made
+                        for Malate Literary folio’s event.</p>
+                    <a href="https://malatedecrypt.herokuapp.com/" class="card-link">Heroku Deployed</a>
+                </div>
+            </div>
+
+            <div class="card bg-black col-12 order-lg-last col-lg-6 col-xl-4">
+                <div class="card-body">
+                    <h5 class="card-title text-light">Chapter One</h5>
+                    <h6 class="card-subtitle mb-2 text-muted small">An e-commerce website</h6>
+                    <p class="card-text text-light">An e-commerce website for book store. Full specs and functionality
+                        can be seen
+                        <a
+                            href="https://github.com/iliwysfyasbysuoi/ITISDEV/blob/master/%5BITISDEV%20S19%5D%20Machine%20Project%20Proposal.pdf">here</a>.
                     </p>
-                <p>
-                    <!-- <a href="">Github</a> |  -->
-                    <a href="https://freetextph.herokuapp.com/">Heroku Deployed</a>
-                </p>
+                    <a href="https://chapterone-itisdevs19.herokuapp.com/" class="card-link text-light">Heroku
+                        Deployed</a>
+                </div>
             </div>
 
+            <div class="card col-12 col-lg-6 order-lg-last col-xl-4">
+                <div class="card-body">
+                    <h5 class="card-title">GourMeet</h5>
+                    <h6 class="card-subtitle mb-2 text-muted small">An Restaurant Rating Website</h6>
+                    <p class="card-text">A restaurant rating website that lets users rate restaurants by food, service,
+                        and environment. It allows user to edit and delete their reviews and also to upvote or downvote
+                        reviews made by other users</p>
+                    <!-- <a href="https://chapterone-itisdevs19.herokuapp.com/" class="card-link">Heroku Deployed</a> -->
+                </div>
+            </div>
         </div>
 
-        <div class="projects row">
-            <div class="col">
-                <!-- <h1 >Projects</h1> -->
-            </div>
-            <div class="col">
-                <h3>Malate Decrypt</h3>
-                <p>Malate Decrypt is a simple and non-inspect-elementable web puzzle 
-                    game made for Malate Literary folio’s event. 
-                    </p>
-                <p>
-                    <a href="https://github.com/iliwysfyasbysuoi/Malate-Decrypt-Game">Github</a> |
-                    <a href="https://malatedecrypt.herokuapp.com/">Heroku Deployed</a>
-                </p>
-            </div>
-            <div class="col">
-                <h3>Chapter One</h3>
-                <p>An e-commerce website for book store. Full specs and functionality 
-                    can be seen <a href="https://github.com/iliwysfyasbysuoi/ITISDEV/blob/master/%5BITISDEV%20S19%5D%20Machine%20Project%20Proposal.pdf">here</a>.
-                    </p>
-                <p>
-                    <a href="https://github.com/katemagbitang/ITISDEV">Github</a> | 
-                    <a href="https://chapterone-itisdevs19.herokuapp.com/">Heroku Deployed</a>
-                </p>
-            </div>
 
-            <div class="col">
-                <h3>GourMeet</h3>
-                <p>A restaurant rating website that lets users rate restaurants by food, 
-                    service, and environment. It allows user to edit and delete their 
-                    reviews and also to upvote or downvote reviews made by other users
-                <p>
-                    <a href="https://github.com/iliwysfyasbysuoi/s12g3">Github</a> 
-                </p>
-            </div>
-            
-        </div>
-       
-        <div class="contactme row">
-            <a href="https://twitter.com/sanitaryglans"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="https://www.instagram.com/xavieriguess/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            <a href="https://github.com/iliwysfyasbysuoi"><i class="fa fa-github" aria-hidden="true"></i></a>
-            <a href="https://www.seanxavier.one/"><i class="fa fa-globe" aria-hidden="true"></i></a>
 
+        <div class="row">
+            <div class="col col-xs-12">
+                <div class="card p-0">
+                    <div class="card-header bg-black ">
+                        <h3 class="text-white text-center ">
+                            Send me an Email!
+                        </h3>
+                    </div>
+
+                    <div class="card-body">
+                        <form>
+                            <div class="row">
+                                <div class="form-group col-sm-12">
+                                    <label class="" for="emailsubject">Subject</label>
+                                    <input type="text" class="form-control  mr-1" id="emailsubject"
+                                        placeholder="Enter subject">
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-sm-12">
+                                    <label class="" for="emailbody">Body</label>
+                                    <textarea type="textarea" class="form-control mr-1"
+                                        id="emailbody" placeholder="Enter Body"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-row pull-right">
+                                <div class="">
+                                    <span class="small">This will open your default email app.</span>
+                                    <button type="button" class="btn bg-black"
+                                        onclick="SendEmail()"><span
+                                            class="text-white">Send Email</span> </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
+
+        <div class="row">
+            <div class="contactme col col-12 m-0 justify-content-center align-self-center bg-black">
+                <a href="https://twitter.com/sanitaryglans"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/xavieriguess/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://github.com/iliwysfyasbysuoi"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="https://www.seanxavier.one/"><i class="fa fa-globe" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        
+
+
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
 
+</body>
 
-   
-
-
-
-    
+</html>
